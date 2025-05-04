@@ -5,6 +5,13 @@ p {
     line-height: 1.5;
     margin: 10px 0;
 }
+p.custom-paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #1dbc35;
+    line-height: 1.5;
+    margin: 10px 0;
+}
 nav {
     display: flex;
     justify-content: flex-end;
@@ -20,3 +27,5 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
+

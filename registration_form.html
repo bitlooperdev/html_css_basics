@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Defines the root element of the HTML document and sets the language to English -->
+<head> <!-- Contains metadata and links for the document -->
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document (UTF-8 supports most characters) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling and responsiveness on different devices -->
+    <title>Registration</title> <!-- Sets the title of the webpage, displayed in the browser tab -->  
+</head>
+<body>
+    <form action="" method="POST"> <!-- Form to collect user registration data -->
+        <label for="username">Username:</label> <!-- Label for the username input field -->
+        <input type="text" id="username" name="username" required> <!-- Input field for username, required for form submission -->
+        <br><br> <!-- Line breaks for spacing -->
+        
+        <label for="email">Email:</label> <!-- Label for the email input field -->
+        <input type="email" id="email" name="email" required> <!-- Input field for email, required for form submission -->
+        <br><br> <!-- Line breaks for spacing -->
+        
+        <label for="password">Password:</label> <!-- Label for the password input field -->
+        <input type="password" id="password" name="password" required> <!-- Input field for password, required for form submission -->
+        <br><br> <!-- Line breaks for spacing -->
+
+        <label for="confirm-password">Confirm Password:</label> <!-- Label for the confirm password input field -->
+        <input type="password" id="confirm-password" name="confirm-password" required> <!-- Input field for confirming password, required for form submission -->
+        <br><br> <!-- Line breaks for spacing -->
+        <input type="hidden" name="mandatory-fields" value="true">
+        <label for="phone">Phone Number:</label> <!-- Label for the phone number input field -->
+        <input type="tel" id="phone" name="phone"> <!-- Input field for phone number -->
+        <br><br> <!-- Line breaks for spacing -->
+
+        <label for="dob">Date of Birth:</label> <!-- Label for the date of birth input field -->
+        <input type="date" id="dob" name="dob"> <!-- Input field for date of birth -->
+        <br><br> <!-- Line breaks for spacing -->
+
+        <label for="gender">Gender:</label> <!-- Label for the gender selection -->
+        <select id="gender" name="gender"> <!-- Dropdown for gender selection -->
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br> <!-- Line breaks for spacing -->
+
+        <label>Hobbies:</label> <!-- Label for hobbies checkboxes -->
+        <input type="checkbox" id="hobby-reading" name="hobbies" value="reading"> <!-- Checkbox for reading -->
+        <label for="hobby-reading">Reading</label>
+        <input type="checkbox" id="hobby-traveling" name="hobbies" value="traveling"> <!-- Checkbox for traveling -->
+        <label for="hobby-traveling">Traveling</label>
+        <input type="checkbox" id="hobby-sports" name="hobbies" value="sports"> <!-- Checkbox for sports -->
+        <label for="hobby-sports">Sports</label>
+        <br><br> <!-- Line breaks for spacing -->
+
+        <label>Marital Status:</label> <!-- Label for marital status radio buttons -->
+        <input type="radio" id="single" name="marital-status" value="single" required> <!-- Radio button for single -->
+        <label for="single">Single</label>
+        <input type="radio" id="married" name="marital-status" value="married"> <!-- Radio button for married -->
+        <label for="married">Married</label>
+        <input type="radio" id="other-status" name="marital-status" value="other"> <!-- Radio button for other -->
+        <label for="other-status">Other</label>
+        <br><br> <!-- Line breaks for spacing -->
+
+        <label for="terms">Accept Terms and Conditions:</label> <!-- Label for terms and conditions checkbox -->
+        <input type="checkbox" id="terms" name="terms" required> <!-- Checkbox for accepting terms, required for form submission -->
+        <br><br> <!-- Line breaks for spacing -->
+        
+        <input type="submit" value="Register"> <!-- Submit button to send the form data -->
+</body>

@@ -1,0 +1,22 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #bc1d1d;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #9d9ba2;
+    color: #2b1691;
+    padding: 10px;
+
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
